@@ -1,0 +1,78 @@
+# Gradle build directory
+/build/
+/out/
+
+# Gradle Wrapper files
+/gradle-wrapper.jar
+/.gradle/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files and caches
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# NetBeans project files
+/nbproject/
+
+# VS Code
+.vscode/
+
+# Operating system files
+*.DS_Store
+Thumbs.db
+
+# Spring Boot properties
+*.env
+*.config
+
+# Maven or Gradle Wrapper binaries
+.mvn/
+.gradle/
+!**/gradle/wrapper/gradle-wrapper.properties
+
+# Application logs
+logs/
+*.log
+
+# Generated files
+target/
+!src/main/resources/
+
+# Local environment files
+.env
+
+# Test reports
+/test-results/
+build/reports/
+
+# Exclude database and sensitive data files
+*.db
+*.sqlite
+*.p12
+
+# H2 database
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Lombok config
+lombok.config
